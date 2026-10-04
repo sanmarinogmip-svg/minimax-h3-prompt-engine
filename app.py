@@ -12,8 +12,8 @@ with st.sidebar:
     model_choice = st.selectbox(
         "🧠 AIモデル選択",
         [
-            "gemini-2.5-flash-lite",
-            "gemini-2.5-flash",
+            "gemini-3.8-flash",
+            "gemini-3.5-flash-lite",
         ],
         index=0
     )
